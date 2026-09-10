@@ -28,6 +28,24 @@ Areas explored include:
 
 ## 🎯 Objectives
 
+## 🏗️ AI Security Architecture
+
+```mermaid
+flowchart TD
+    A[User / Application] --> B[AI Gateway]
+    B --> C[Input Validation]
+    C --> D[LLM / AI Model]
+    D --> E[Output Filtering]
+    E --> F[User Response]
+
+    C --> G[Prompt Injection Detection]
+    D --> H[Model & Agent Controls]
+    E --> I[Data Leakage Detection]
+
+    G --> J[Security Monitoring]
+    H --> J
+    I --> J
+```
 The aim of this lab is to explore how AI systems can be designed, tested and deployed securely while understanding emerging threats against increasingly capable AI systems.
 
 ## 🚧 Project Status
