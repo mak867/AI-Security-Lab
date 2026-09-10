@@ -51,3 +51,13 @@ The aim of this lab is to explore how AI systems can be designed, tested and dep
 ## 🚧 Project Status
 
 This project is under active development. Practical AI security labs, architecture examples and security testing demonstrations will be added progressively.
+
+## 🛡️ Security Frameworks
+
+This lab draws on established AI and cyber security frameworks, including:
+
+- **OWASP Top 10 for LLM Applications** – common security risks affecting LLM-based applications
+- **MITRE ATLAS** – adversarial threats and techniques targeting AI systems
+- **NIST AI Risk Management Framework (AI RMF)** – managing risks throughout the AI lifecycle
+- **NIST Cybersecurity Framework (CSF)** – broader cyber security risk management
+- **Zero Trust Architecture** – applying least privilege and continuous verification to AI systems
